@@ -8,7 +8,7 @@
     </router-link>
     <div class="flex items-center gap-1">
       <router-link
-        to="/byName"
+        :to="{ name: 'byName' }"
         class="inline-flex items-center px-2 h-full transition-colors hover:bg-purple-100"
       >
         Search Meals
